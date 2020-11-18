@@ -77,5 +77,6 @@ while not done:
         screen.blit(background, background_rect)
         all_sprites.draw(screen)
         pygame.display.flip()
+        # to do
         # pygame.draw.rect(screen, (0, 128, 255), pygame.Rect(x, y, 90, 90))
         #  pygame.display.flip()
